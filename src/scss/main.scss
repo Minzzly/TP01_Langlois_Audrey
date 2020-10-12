@@ -1,0 +1,22 @@
+/*--------------------------------------------- SETTINGS -----------------------------------------------*/
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/spacings";
+
+/*--------------------------------------------- GENERIC -----------------------------------------------*/
+@import "generic/reset";
+@import "normalize";
+
+/*--------------------------------------------- ELEMENTS -----------------------------------------------*/
+@import "elements/body";
+
+/*--------------------------------------------- COMPONENTS -----------------------------------------------*/
+@import "components/wrapper";
+@import "components/header";
+@import "components/nav";
+@import "components/hero";
+@import "components/decompte";
+@import "components/produits";
+@import "components/info_achat";
+
+/*--------------------------------------------- UTILITIES -----------------------------------------------*/
