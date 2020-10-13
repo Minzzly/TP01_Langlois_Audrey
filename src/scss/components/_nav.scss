@@ -1,24 +1,26 @@
-.nav-principal{
-  background-color:rgba(255, 255, 255, 0.95);
-  padding:var(--padding-medium);
+.nav-principal {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: var(--padding-medium);
 
-  ul{
+  ul {
     text-align: center;
-    li:nth-child(1){
+
+    li:nth-child(1) {
       font-family: var(--ff-secondary);
-      font-weight:700;
-      font-size:1.5rem;
-      padding-bottom:var(--padding-thin);
+      font-weight: 700;
+      font-size: 1.5rem;
+      padding-bottom: var(--padding-thin);
     }
-    a{
+
+    a {
       text-decoration: none;
-      font-weight:500;
-      color:var(--color-text-primary);
+      font-weight: 500;
+      color: var(--color-text-primary);
 
-      padding-bottom:var(--padding-thin);
+      padding-bottom: var(--padding-thin);
 
-      &:hover{
-        color:var(--color-text-hover);
+      &:hover {
+        color: var(--color-text-hover);
       }
     }
   }
