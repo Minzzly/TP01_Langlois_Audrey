@@ -19,6 +19,7 @@
     p {
       padding: var(--padding-thin) 0;
       text-align: center;
+      font-size: 1.5rem;
     }
 
     a {
@@ -33,5 +34,10 @@
         color: var(--color-text-primary);
       }
     }
+  }
+}
+@media screen and (min-width: $vw-large) {
+  .info-achat{
+    margin-top: var(--margin-huge);
   }
 }
