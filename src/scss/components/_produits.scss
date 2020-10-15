@@ -50,5 +50,25 @@
       z-index: 1;
     }
   }
+}
 
+@media screen and (min-width: $vw-medium) {
+  .produits{
+    display:flex;
+    flex-wrap: wrap;
+    article{
+      width:33.3333%;
+      .infoProduit{
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $vw-large) {
+  .produits{
+    article{
+      width:25%;
+    }
+  }
 }

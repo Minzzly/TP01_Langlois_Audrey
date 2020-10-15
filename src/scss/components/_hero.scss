@@ -2,9 +2,17 @@
   .titre-hero {
     font-weight: 700;
     color: var(--color-white);
-    text-shadow: 2px 2px 8px var(--color-black);
-
-    margin-top: 130px;
+    text-shadow: 2px 2px 4px var(--color-black);
     text-align: center;
+
+    padding: 200px 0;
+  }
+}
+
+@media screen and (min-width: $vw-medium) {
+  .hero {
+    .titre-hero {
+      font-size: 3rem;
+    }
   }
 }

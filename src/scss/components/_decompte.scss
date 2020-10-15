@@ -11,24 +11,42 @@
     display: flex;
     justify-content: space-between;
 
-    .tempsDecompte {
+    article {
       background: var(--color-gradient-primary);
       margin: var(--margin-medium) 0;
       width: 24%;
       padding: var(--padding-medium) 0;
 
       p {
+        font-weight: 400;
+        font-size: 0.75rem;
+        color: var(--color-white);
+        text-align: center;
+        margin: 0;
+      }
+
+      .nombreDecompte {
         font-weight: 700;
         font-size: 1.5rem;
-        color: var(--color-white);
-        line-height: 18px;
-        text-align: center;
+      }
+    }
+  }
+}
 
-        margin: 0;
 
-        span {
-          font-weight: 400;
-          font-size: 0.75rem;
+@media screen and (min-width: $vw-medium) {
+  .sectionDecompte {
+    h3 {
+      font-size: 3rem;
+    }
+
+    .decomptes {
+      max-width: 550px;
+      margin: auto;
+
+      article {
+        .nombreDecompte {
+          font-size: 3.43rem;
         }
       }
     }
